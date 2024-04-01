@@ -52,3 +52,22 @@ a:hover {
   background-color: transparent;
   color: #fff;
 }
+
+/* Responsive  */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  a {
+    font-size: small;
+  }
+
+  img {
+    max-width: 45px;
+  }
+}
